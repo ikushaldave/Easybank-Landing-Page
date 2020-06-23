@@ -164,44 +164,52 @@ a {
 /* ====================================
     Header
 ===================================== */
-
-.logo,
-.primary-nav {
-    line-height: 42px;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
 }
 
-.logo {
-    width: 16%;
-}
+    .logo,
+    .primary-nav {
+        line-height: 42px;
+    }
 
-.primary-nav {
-    width: 68%;
-    text-align: center;
-}
+    .logo {
+        width: 16%;
+    }
 
-.nav-item {
-    display: inline-block;
-}
+    .primary-nav {
+        width: 68%;
+        text-align: center;
+    }
 
-.nav-item a {
-    margin: 0 10px
-}
+    .nav-item {
+        display: inline-block;
+    }
 
-.nav-item a:hover {
-    color: var(--primary-dark-blue);
-}
+    .nav-item a {
+        margin: 0 10px
+    }
 
-.nav-item .active {
-    color: var(--primary-dark-blue);
-    padding-bottom: 8px;
-    border-bottom: 5px solid var(--primary-lime-green);
-}
+    .nav-item a:hover {
+        color: var(--primary-dark-blue);
+    }
+
+    .nav-item .active {
+        color: var(--primary-dark-blue);
+        padding-bottom: 8px;
+        border-bottom: 5px solid var(--primary-lime-green);
+    }
 
 /* ====================================
     Main
 ===================================== */
 
 main {
+    margin-top: 86px;
     background-color: rgb(250,250,250);
     position: relative;
 }   
